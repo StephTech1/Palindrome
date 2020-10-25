@@ -4,12 +4,12 @@ print ("Is your word a Palindrome?")
 #Ask user for word
 input = str(input("What is your word?"))
 #create a function to check if a string is reversed
-def reverse_word (palin):
-  return palin == palin  
+#end to beginning counting down by 1
+
 
 palin = input 
 
-if (reverse_word) :
+if palin == palin [::-1] :
   print("Yes!")
 
 else:
